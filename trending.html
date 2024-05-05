@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="trending.css" />
+    <title>Youtube Clone</title>
+  </head>
+  <body>
+    <nav class="flex-div">
+      <div class="nav-left flex-div">
+        <img src="./images/menu.png" class="menu-icon" alt="" srcset="" />
+        <img src="./images/logo.png" class="logo" alt="" srcset="" />
+      </div>
+      <div class="nav-middle flex-div">
+        <div class="search-box flex-div">
+          <input type="text" placeholder="Search.." />
+          <img src="./images/search.png" alt="" srcset="" />
+        </div>
+        <img
+          src="./images/voice-search.png"
+          class="mic-icon"
+          alt=""
+          srcset=""
+        />
+      </div>
+      <div class="nav-right flex-div">
+        <img src="./images/upload.png" alt="" srcset="" />
+        <img src="./images/more.png" alt="" srcset="" />
+        <img src="./images/notification.png" alt="" srcset="" />
+        <img src="./images/profile.jpg" class="user-icon" alt="" srcset="" />
+      </div>
+    </nav>
+
+    <!-- Side Bar -->
+
+    <div class="sidebar">
+      <div class="shortcut-links">
+        <a href="#"
+          ><img src="./images/home.png" />
+          <p>Trang chủ</p></a
+        >
+        <a href="#"
+          ><img src="./images/explore.png" />
+          <p>Xu hướng</p></a
+        >
+        <a href="#"
+          ><img src="./images/subscriprion.png" />
+          <p>Kênh đăng kí</p></a
+        >
+        <hr />
+        <a href="#"
+          ><img src="./images/library.png" />
+          <p>Thư viện</p></a
+        >
+        <a href="#"
+          ><img src="./images/history.png" />
+          <p>Lịch sử</p></a
+        >
+        <a href="#"
+          ><img src="./images/playlist.png" />
+          <p>Danh sách phát</p></a
+        >
+        <a href="#"
+          ><img src="./images/messages.png" />
+          <p>Tin nhắn</p></a
+        >
+        <a href="#"
+          ><img src="./images/show-more.png" />
+          <p>Hiện thị thêm</p></a
+        >
+        <hr />
+      </div>
+      <div class="subscribed-list">
+        <h3>Kênh đăng kí</h3>
+        <a href="#"
+          ><img src="https://yt3.ggpht.com/UsflU74uvka_3sejOu3LUGwzOhHJV0eIYoWcvOfkOre_c12uIN4ys-QqRlAkbusEmbZjTA-b=s88-c-k-c0x00ffffff-no-rj" />
+          <p>F8 Offical</p></a
+        >
+        <a href="#"
+          ><img src="https://yt3.ggpht.com/UtzXAAKz-qnKPqnzX2ec9zmKgWx1yHb9cUWPj5gFcF_Imw3KgAbNBpOuXN0HZ7P1WadZyzkW=s88-c-k-c0x00ffffff-no-rj" />
+          <p>evondev</p></a
+        >
+        <a href="#"
+          ><img src="https://yt3.ggpht.com/9Yex6n49A--aynOCkKxywEo3wVw_fJgf1jbHvX8__NkfD6KPNjFbL_3pY_8sk1vt-Cazl5N_zA=s88-c-k-c0x00ffffff-no-rj" />
+          <p>Phạm Huy</p></a
+        >
+        <a href="#"
+          ><img src="https://yt3.ggpht.com/Hos-MUkPb3FwQwLVUMJUmRVbxIjtMUON8qfkkkbVOHlNa8MR4OsBfptmes0YoweNynvp3c0kXw=s88-c-k-c0x00ffffff-no-rj" />
+          <p>Langchain</p></a
+        >
+        <a href="#"
+          ><img src="./images/cameron.png" />
+          <p>Yêu tiếng anh</p></a
+        >
+        <hr />
+      </div>
+      <div class="shortcut-links">
+        <p style="margin-top: 10px; color: #000; font-weight: 500; ">Khám phá</p>
+        <a href="#"
+          ><div style="color: #000; margin-right: 20px; width: 24px; height: 24px; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M14 6V3c-.85.44-1.7.88-2.55 1.33-1.41.74-2.9 1.34-4.17 2.32-1.13.87-2.02 2.05-2.58 3.37-.46 1.09-.7 2.29-.7 3.48v.14C4 18.26 7.58 22 12 22s8-3.74 8-8.36V2l-6 4zm0 9.7c0 1.82-1.34 3.3-3 3.3s-3-1.47-3-3.3c0-1.19.58-2.24 1.45-2.82L14 10v5.7z"></path></svg></div>
+          <p>Thịnh hành</p></a
+        >
+        <a href="#"
+          ><div style="color: #000; margin-right: 20px; width: 24px; height: 24px; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 4v9.38c-.73-.84-1.8-1.38-3-1.38-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V8h6V4h-7zM9 19c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm9-12h-5V5h5v2z"></path></svg></div>
+          <p>Âm nhạc</p></a
+        >
+        <a href="#"
+          ><div style="color: #000; margin-right: 20px; width: 24px; height: 24px; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M11 11v6H7v-6h4m1-1H6v8h6v-8zM3 3.03V21h14l4-4V3.03M20 4v11.99l-.01.01H16v3.99l-.01.01H4V4h16zm-2 4H6V6h12v2zm0 7h-5v-2h5v2zm0-3h-5v-2h5v2z"></path></svg></div>
+          <p>Tin tức</p></a
+        >
+        <a href="#"
+          ><div style="color: #000; margin-right: 20px; width: 24px; height: 24px; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M18 5V2H6v3H3v6l3.23 1.61c.7 2.5 2.97 4.34 5.69 4.38L8 19v3h8v-3l-3.92-2.01c2.72-.04 4.99-1.88 5.69-4.38L21 11V5h-3zM6 11.38l-2-1V6h2v5.38zM15 21H9v-1.39l3-1.54 3 1.54V21zm2-10c0 2.76-2.24 5-5 5s-5-2.24-5-5V3h10v8zm3-.62-2 1V6h2v4.38z"></path></svg></div>
+          <p>Thể thao</p></a
+        >
+        <hr />
+      </div>
+    </div>
+
+    <!-- Main Body -->
+    <div class="container">
+      <div class="banner">
+        <img src="./images/banner.png" alt="" srcset="" />
+      </div>
+      <div class="main-container">
+        <div class="trending-title">
+            <img src="https://www.youtube.com/img/trending/avatar/trending.png" alt="">
+            <h2>Thịnh hành</h2>
+        </div>
+        <div class="list-category">
+            <div class="item-category active">
+                <a href="">Mới nhất</a>
+            </div>
+            <div class="item-category">
+                <a href="">Âm nhạc</a>
+            </div>
+            <div class="item-category">
+                <a href="">Trò chơi</a>
+            </div>
+            <div class="item-category">
+                <a href="">Điện ảnh</a>
+            </div>
+        </div>
+        <div class="list-video">
+            <div class="video-item">
+                <img src="https://i.ytimg.com/an_webp/Xqh5sGEs8g8/mqdefault_6s.webp?du=3000&sqp=CKDo27EG&rs=AOn4CLDQqsUZ2HzjIYIUpRkHxn9tYIYUKA" alt="">
+                <div class="video-body">
+                    <h3>BÀN CHÂN KHỔNG LỒ KÌ LẠ #haibadane #shorts</h3>
+                    <div class="sub-infor">
+                        <span>Hai bà dà nè</span>
+                        <div class="icon-sub" style="display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"></path></svg></div>
+                        <span>6 tr lượt xem</span>
+                        <span>6 ngày trước</span>
+                    </div>
+                    <p class="video-content">Hai bà dà chào cả nhàaaaa 👵👵 Cả nhà nhớ nhấn nút Đăng ký 👍 và bật Chuông thông báo 🔔 để không bỏ lỡ bất kỳ video mới nào của hai bà nha...</p>
+                </div>
+
+            </div>
+            <div class="video-item">
+                <img src="https://i.ytimg.com/vi/xfqBQ2XhBCg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD9A50WCZdxK0Px20abXxrJEOHCGw" alt="">
+                <div class="video-body">
+                    <h3>ZICO (지코) ‘SPOT! (feat. JENNIE)’ Official MV</h3>
+                    <div class="sub-infor">
+                        <span>HYBE LABELS</span>
+                        <div class="icon-sub" style="display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"></path></svg></div>
+                        <span>25 tr lượt xem</span>
+                        <span>8 ngày trước</span>
+                    </div>
+                    <p class="video-content">ZICO 11th Digital Single ‘SPOT! (feat. JENNIE)’ 🎧http://zico.lnk.to/SPOT #ZICO #지코 #JENNIE #제니 #SPOT #스팟 Credits: DIRECTOR | YONGSEOK CHOI (LUMPENS) CO-DIRECTOR...</p>
+                </div>
+
+            </div>
+            <div class="video-item">
+                <img src="https://i.ytimg.com/vi/88gmFB111aY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDGYVNm8mNISYJCxywqExRShQEI2w" alt="">
+                <div class="video-body">
+                    <h3>Hiền Hồ mashup Chúng Ta Của Tương Lai x Chắc Ai Đó Sẽ Về - Sơn Tùng M-TP | Lululola Show</h3>
+                    <div class="sub-infor">
+                        <span>Hiền Hồ Official</span>
+                        <div class="icon-sub" style="display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"></path></svg></div>
+                        <span>1,2 tr lượt xem</span>
+                        <span>7 ngày trước</span>
+                    </div>
+                    <p class="video-content">#hienho #sontungmtp #chungtacuatuonglai Hiền Hồ trân trọng cảm ơn Nghệ sĩ Sơn Tùng M-TP và M-TP Entertainment đã đồng ý cho Hiền được live cover ca khúc CHÚNG...</p>
+                </div>
+
+            </div>
+            <div class="video-item">
+                <img src="https://i.ytimg.com/vi/1qFzxH3R9rQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAaQP_x7bX1JLzCAAUfIzgGuYM64A" alt="">
+                <div class="video-body">
+                    <h3>Hà Nhi xót xa hát " Tội Cho Em " vì có ai đợi suốt 5 năm chỉ để nhận lại hai từ biết ơn</h3>
+                    <div class="sub-infor">
+                        <span>Hà Nhi Official</span>
+                        <div class="icon-sub" style="display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"></path></svg></div>
+                        <span>4,4 tr lượt xem</span>
+                        <span>4 tuần trước</span>
+                    </div>
+                    <p class="video-content">Tội Cho Em - Hà Nhi SPECIAL THANKS TO : Composer : Tuno Band nhạc chị Khánh An Xinh đẹp 𝐋𝐲𝐫𝐢𝐜𝐬: 𝑽𝒆𝒓: Có những cay đắng như Sự khước từ...</p>
+                </div>
+
+            </div>
+            <div class="video-item">
+                <img src="https://i.ytimg.com/vi/SeWt7IpZ0CA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBBBu_XahBHPjgEF4fQrD2kjKXXBw" alt="">
+                <div class="video-body">
+                    <h3>SOOBIN - giá như | Official MV</h3>
+                    <div class="sub-infor">
+                        <span>SOOBIN Official</span>
+                        <div class="icon-sub" style="display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"></path></svg></div>
+                        <span>5,1 tr lượt xem</span>
+                        <span>6 ngày trước</span>
+                    </div>
+                    <p class="video-content">#SOOBIN #gianhu #SSLabel SOOBIN - giá như | Official MV 'giá như' là bài hát Soobin viết cho một người cũ khi câu chuyện của chúng mình đã đi đến hồi kết....</p>
+                </div>
+
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="side-bar.js"></script>
+  </body>
+</html>
